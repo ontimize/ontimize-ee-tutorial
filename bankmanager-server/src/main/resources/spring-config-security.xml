@@ -49,7 +49,7 @@
 		class="com.ontimize.jee.server.security.authentication.OntimizeAuthenticationFilter">
 		<property name="userDetailsService" ref="databaseUserInformationService" />
 		<property name="userCache" ref="userCache" />
-		<property name="jwtService" ref="jwtService" />
+		<property name="tokenGenerator" ref="tokenGenerator" />
 		<property name="generateJwtHeader" value="true" />
 		<property name="authenticationManager" ref="authenticationManager" />
 		<property name="authenticationEntryPoint" ref="basicAuthEntryPoint" />
@@ -92,9 +92,11 @@
 		<property name="tokenExpirationTime" value="0" />
 	</bean>
 
-	<bean id="jwtService"
-		class="com.ontimize.jee.server.security.authentication.jwt.DefaultJwtService">
-		<constructor-arg value="ld.a,#82xyz" />
+	<bean id="jwtService" class="com.ontimize.jee.server.security.authentication.jwt.DefaultJwtService">
+		<constructor-arg value="aEQHTT.teywld.a,#3587ñxyz" />
+	</bean>
+	<bean id="tokenGenerator" class="com.ontimize.jee.server.security.authentication.DefaultSecurityJWTTokenGenerator">
+		<property name="jwtService" ref="jwtService" />
 	</bean>
 
 	<!-- Authentication FormLogin -->

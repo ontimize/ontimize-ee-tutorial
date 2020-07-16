@@ -9,7 +9,7 @@
 			<StaticValue variable="rightMargin" value="30" />
 		</Class>
 		
-		<Class name="com.ontimize.login.ShapeChangePasswordDialog">
+		<Class name="com.ontimize.gui.login.ShapeChangePasswordDialog">
 			<StaticValue variable="topMargin" value="125" />
 			<StaticValue variable="bottomMargin" value="50" />
 			<!-- <StaticValue variable="leftMargin" value="0" /> -->
@@ -76,7 +76,7 @@
 			<!-- <StaticValue variable="DEFAULT_PARENT_MARGIN_FOR_SCROLL" value="1" 
 				/> -->
 		</Class>
-			<Class name="com.ontimize.login.ShapeChangePasswordDialog">
+			<Class name="com.ontimize.gui.login.ShapeChangePasswordDialog">
 			<StaticValue variable="topMargin" value="125" />
 			<StaticValue variable="bottomMargin" value="50" />
 			<!-- <StaticValue variable="leftMargin" value="0" /> -->

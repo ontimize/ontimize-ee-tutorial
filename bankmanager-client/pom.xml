@@ -34,7 +34,13 @@
 			<dependency>
 			<groupId>com.ontimize</groupId>
 			<artifactId>ontimize-more-plaf-j7</artifactId>
-		</dependency>
+			<exclusions>
+				<exclusion>
+					<groupId>com.ontimize</groupId>
+					<artifactId>ontimize-core</artifactId>
+				</exclusion>
+			</exclusions>
+			</dependency>
 		<dependency>
 			<groupId>com.ontimize</groupId>
 			<artifactId>ontimize-more-plaf-styles-white</artifactId>

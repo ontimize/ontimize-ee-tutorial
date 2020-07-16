@@ -11,7 +11,7 @@
   <dependencies>
 		<dependency>
 			<groupId>com.ontimize</groupId>
-			<artifactId>ontimize-core</artifactId>
+			<artifactId>ontimize-core-client</artifactId>
 			<exclusions>
 				<exclusion>
 					<groupId>com.fasterxml.jackson.core</groupId>
