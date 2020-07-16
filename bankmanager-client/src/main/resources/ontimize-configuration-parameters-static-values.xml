@@ -9,6 +9,10 @@
 			<StaticValue variable="rightMargin" value="30" />
 		</Class>
 		
+		<Class name="com.ontimize.gui.login.ShapeLoginDialog">
+			<StaticValue variable="opaque" value="false" />
+		</Class>
+		
 		<Class name="com.ontimize.gui.login.ShapeChangePasswordDialog">
 			<StaticValue variable="topMargin" value="125" />
 			<StaticValue variable="bottomMargin" value="50" />
