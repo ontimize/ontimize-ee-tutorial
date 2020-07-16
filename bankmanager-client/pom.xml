@@ -1,16 +1,18 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>com.imatia.jee</groupId>
-    <artifactId>bankmanager</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
-  <artifactId>bankmanager-client</artifactId>
-  <name>Bank Manager Client JEE</name>
-  <description>Bank Manager Client JEE</description>
-  
-  
-  <dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.imatia.jee</groupId>
+		<artifactId>bankmanager</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>bankmanager-client</artifactId>
+	<name>Bank Manager Client JEE</name>
+	<description>Bank Manager Client JEE</description>
+
+
+	<dependencies>
 		<dependency>
 			<groupId>com.imatia.jee</groupId>
 			<artifactId>bankmanager-common</artifactId>
@@ -31,7 +33,13 @@
 			<groupId>net.sf.jasperreports</groupId>
 			<artifactId>jasperreports</artifactId>
 		</dependency>
-			<dependency>
+		<dependency>
+			<groupId>ar.com.fdvs</groupId>
+			<artifactId>DynamicJasper</artifactId>
+			<version>5.0.0</version>
+		</dependency>
+
+		<dependency>
 			<groupId>com.ontimize</groupId>
 			<artifactId>ontimize-more-plaf-j7</artifactId>
 			<exclusions>
@@ -40,14 +48,14 @@
 					<artifactId>ontimize-core</artifactId>
 				</exclusion>
 			</exclusions>
-			</dependency>
+		</dependency>
 		<dependency>
 			<groupId>com.ontimize</groupId>
 			<artifactId>ontimize-more-plaf-styles-white</artifactId>
 		</dependency>
 	</dependencies>
-  
-  	<build>
+
+	<build>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -76,6 +84,6 @@
 			</resource>
 		</resources>
 	</build>
-  
-  
+
+
 </project>
