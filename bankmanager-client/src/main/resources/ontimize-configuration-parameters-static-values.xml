@@ -5,8 +5,8 @@
 		<Class name="com.ontimize.gui.login.LoginDialog">
 			<StaticValue variable="topMargin" value="0" />
 			<StaticValue variable="bottomMargin" value="75" />
-			<StaticValue variable="leftMargin" value="30" />
-			<StaticValue variable="rightMargin" value="30" />
+			<StaticValue variable="leftMargin" value="70" />
+			<StaticValue variable="rightMargin" value="70" />
 		</Class>
 		
 		<Class name="com.ontimize.gui.login.ShapeLoginDialog">
